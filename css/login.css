@@ -1,7 +1,7 @@
 body{
     padding: 0;
     margin: 0;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     position: relative;
     background-image: url(../img/background.png);
@@ -32,11 +32,11 @@ body::before{
 }
 
 .loginBody{
-    padding: 60px;
+    padding: 62px 68px ;
     z-index: 90;
     position: relative;
     max-width: 450px;
-    height: 550px;
+    height: 664px;
     margin-left: 50%;
     background-color: rgb(0,0,0,0.75);
     border-radius: 4px;
@@ -45,7 +45,7 @@ body::before{
 }
 
 .loginBody h2{
-    font: 32px;
+    font-size: 32px;
     color: #fff;
     margin-top: 0;
 
@@ -89,7 +89,7 @@ body::before{
 
 .support{
     display: flex;
-    color: #b3b3b3;
+    color: #B3B3B3;
     justify-content: space-between;
     font-size: 12px;
     margin-bottom: 5px;
@@ -104,6 +104,7 @@ body::before{
 .remember {
     display: flex;
     align-items: center;
+    font-size: 13px;
 }
 
 .remember span {
@@ -113,39 +114,25 @@ body::before{
 
 .help a {
     text-decoration: none;
-    color: #737373;
+    color: #B3B3B3;
 }
 
 .help a:hover {
     text-decoration: underline;
 }
 
-.loginFacebook {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    color: #737373;
-}
-
-.loginFacebook span {
-    margin-right: 5px;
-    font-size: 13px;
-}
-
-.loginFacebook span a {
-    text-decoration: none;
-    color: #737373;
-}
 
 .signUp {
     color: #737373;
     font-size: 16px;
+    margin-top: 70px;
 }
 
 .signUp a {
-    color: #fff;
+    color: #FFFFD7;
     font-size: 16px;
     text-decoration: none;
+   
 }
 
 .signUp a:hover {
@@ -164,4 +151,8 @@ body::before{
 
 .terms a:hover {
     text-decoration: underline;
-}   
+}  
+
+footer{
+    width: 100%;
+}
